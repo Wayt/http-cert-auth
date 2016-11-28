@@ -38,6 +38,10 @@ curl -v --insecure --key authorizedkeys/client.key --cert authorizedkeys/client.
 
 You can generate a new client cert outside `authorizedkeys` directory to try an unauthorized one.
 
+## Disclaimer
+
+On MacOS X, since Mavericks, ssl certs are managed by Apple keychain. See https://curl.haxx.se/mail/archive-2014-10/0053.html
+
 ## Credits
 
 Most of this code was inspired by lxd works on the matter https://github.com/lxc/lxd
